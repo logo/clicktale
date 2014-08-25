@@ -1,0 +1,22 @@
+
+/**
+ * ClickTale
+ */
+
+.logo[data-logo="ClickTale"] {
+  width: 5.075862069em;
+  /* (7.36/1.45) * (1+0) - 0 */
+}
+
+.logo[data-logo="ClickTale"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="ClickTale"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="ClickTale"][data-color="black"] > * {
+  background-image: url(images/logo-white.svg);
+}
